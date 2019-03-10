@@ -1,29 +1,25 @@
-//package com.codepath.insta_droid;
-//
-//import android.content.Intent;
-//import android.os.Bundle;
-//import android.support.v7.app.AppCompatActivity;
-//import android.view.View;
-//import android.widget.Button;
-//import android.widget.EditText;
-//import android.widget.Toast;
-//
-//import com.parse.ParseException;
-//import com.parse.ParseUser;
-//import com.parse.SignUpCallback;
-//
-//public class signUp extends AppCompatActivity {
-//
-//    private Button btnReg;
-//    private EditText etEmail;
-//    private EditText etPass;
-//    private EditText etName;
-//
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_sign_up);
-//
+package com.codepath.insta_droid;
+
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class signUp extends AppCompatActivity {
+
+    private Button btnReg;
+    private EditText etEmail;
+    private EditText etPass;
+    private EditText etName;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_sign_up);
+
+    }
+}
+
 //        etName = findViewById(R.id.etName);
 //        etPass = findViewById(R.id.etPass);
 //        etEmail = findViewById(R.id.etEmail);
